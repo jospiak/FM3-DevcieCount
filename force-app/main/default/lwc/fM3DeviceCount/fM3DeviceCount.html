@@ -1,0 +1,19 @@
+<template>
+    <lightning-card>
+        <h3 slot="title">
+            <lightning-icon icon-name="utility:connected_apps" size="small"></lightning-icon>
+            Total Devices
+        </h3>
+        <div slot="footer">
+            <span class="slds-badge slds-theme_success">
+                <span class="slds-badge__icon slds-badge__icon_left slds-badge__icon_inverse">
+                </span>{online.data} Online</span>
+                <span class="slds-badge slds-theme_error">
+                    <span class="slds-badge__icon slds-badge__icon_left slds-badge__icon_inverse">
+                    </span>{online.data} Offline</span>
+        </div>
+        <h1 class="slds-text-align_center" style="font-size: 72px; color: #cc0000;">
+            {online.data}
+        </h1>
+    </lightning-card>
+</template>
