@@ -1,0 +1,16 @@
+<template>
+    <lightning-card>
+        <h3 slot="title">
+            <lightning-icon icon-name="utility:print" size="medium" class="slds-p-around_small"></lightning-icon>
+            Our Fleet Devices
+        </h3>
+        <div slot="footer">
+            <span class="slds-badge slds-theme_success">{online.data} Online</span>
+            <span class="slds-badge slds-theme_error">{offline.data} Offline</span>
+            <span class="slds-badge slds-badge_inverse">{retired.data} Retired</span>
+        </div>
+        <h1 class="slds-text-align_center" style="font-size: 72px; color: #000000;">
+            {online.data}
+        </h1>
+    </lightning-card>
+</template>
