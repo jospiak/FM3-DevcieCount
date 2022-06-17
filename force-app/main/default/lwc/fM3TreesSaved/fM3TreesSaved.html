@@ -2,13 +2,13 @@
     <lightning-card>
         <h3 slot="title" class="slds-p-around_small">
             <lightning-icon icon-name="custom:custom5" size="small"></lightning-icon>
-            <strong class="slds-m-left--x-small">Duplex Ratio</strong>
+            <strong class="slds-m-left--x-small">Trees Saved (Lifetime)</strong>
         </h3>
         <div slot="footer" class="slds-align_absolute-center">
-            <span class="slds-badge slds-badge_inverse">Duplex Pages / (Duplex Pages + Simplex Pages)</span>
+            <span class="slds-badge slds-badge_inverse">{SavedLM.data} Trees Saved Last Month</span>
         </div>
         <h1 class="slds-text-align_center" style="font-size: 36px; color: #000000;">
-            {Duplex.data} %
+            {Saved.data}
         </h1>
     </lightning-card>
 </template>
