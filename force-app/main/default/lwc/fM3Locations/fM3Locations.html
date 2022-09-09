@@ -1,0 +1,42 @@
+<template>
+    <lightning-card>
+        <h3 slot="title" class="slds-p-around_small">
+            <lightning-icon icon-name="standard:account" size="small"></lightning-icon>
+            Our Locations
+        </h3>
+        <div slot="footer" class="slds-align_absolute-center">
+            <span class="slds-badge slds-badge_inverse">Americas - {Amer.data}</span>
+            <span class="slds-badge slds-badge_inverse">EMEA - {Emea.data}</span>
+            <span class="slds-badge slds-badge_inverse">APAC - {Apac.data}</span>
+        </div>
+        <div class="slds-grid">
+            <div class="slds-col slds-size_1-of-1 ">
+                <h1 class="slds-text-align_center" style="font-size: 36px; color: #000000;">
+                    {All.data}
+                </h1>
+                <div>
+                    <i class="fas fa-globe-americas fa-5x"></i>
+                </div>
+            </div>
+        </div>
+    </lightning-card>  
+</template>
+
+<!--<lightning-card>
+        <h3 slot="title">
+            <lightning-icon icon-name="utility:print" size="small" class="slds-p-around_small"></lightning-icon>
+            Our Locations
+        </h3>
+        <div slot="footer" class="slds-align_absolute-center">
+            <span class="slds-badge slds-badge_inverse">Americas - {Amer.data}</span>
+            <span class="slds-badge slds-badge_inverse">EMEA - {Emea.data}</span>
+            <span class="slds-badge slds-badge_inverse">APAC - {Apac.data}</span>
+        </div>
+        <div class="slds-grid">
+            <div class="slds-col slds-size_1-of-1 ">
+                <h1 class="slds-text-align_center" style="font-size: 36px; color: #000000;">
+                    {All.data}
+                </h1>
+            </div>
+        </div>
+    </lightning-card>  -->
